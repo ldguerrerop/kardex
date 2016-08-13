@@ -1,0 +1,22 @@
+{
+  "name": "kardex",
+  "version": "0.0.1",
+  "description": "My lame kardex",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldguerrerop/kardex.git"
+  },
+  "author": "Daniel Guerrero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldguerrerop/kardex/issues"
+  },
+  "homepage": "https://github.com/ldguerrerop/kardex#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
