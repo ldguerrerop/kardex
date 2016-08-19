@@ -11,6 +11,10 @@ app.get('/kardex', function(request, response){
     response.sendFile(__dirname + '/client/kardex.html');
 });
 
+app.get('/kardexdavid', function(request, response){
+    response.sendFile(__dirname + '/client/kardexdavid.html');
+});
+
 app.get('/404', function (request, response) {
   response.sendFile(__dirname + '/client/404.html');
 })

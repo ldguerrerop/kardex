@@ -1,0 +1,19 @@
+body {font-family: Arial, Helvetica, sans-serif;
+	background-image:url(fondo.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	-o-background-size: 100% 100%, auto;
+	-moz-background-size: 100% 100%, auto;
+	-webkit-background-size: 100% 100%, auto;
+	background-size: 100% 100%, auto;
+
+}
+
+table {    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 700px; text-align: left;    border-collapse: collapse; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
