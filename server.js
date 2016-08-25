@@ -7,22 +7,22 @@ app.get('/', function(request, response) {
     response.sendFile(__dirname + '/client/index.html');
 });
 
-app.get('/kardex', function(request, response){
+app.get('/kardex', function(request, response) {
     response.sendFile(__dirname + '/client/kardex.html');
 });
 
-app.get('/kardexdavid', function(request, response){
+app.get('/kardexdavid', function(request, response) {
     response.sendFile(__dirname + '/client/kardexdavid.html');
 });
 
-app.get('/404', function (request, response) {
-  response.sendFile(__dirname + '/client/404.html');
+app.get('/404', function(request, response) {
+    response.sendFile(__dirname + '/client/404.html');
 })
 
-app.get('*', function(request, response){
-  response.redirect('/404');
+app.get('*', function(request, response) {
+    response.redirect('/404');
 });
 
-app.listen(3000, function(){
-  console.log('Running on http://localhost:3000');
+app.listen(3000, function() {
+    console.log('Running on http://localhost:3000');
 });
